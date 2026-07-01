@@ -247,9 +247,19 @@ section.portfolio{
 
 
 @media (max-width: 840px){
+
+* {
+   
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
     .apresentacao{
         flex-direction: column-reverse;
         padding: 5%;
+        
     }
 
     .cabecalho{
@@ -260,6 +270,7 @@ section.portfolio{
 
     .cabecalho__menu__links{
         font-size: 22px;
+        width: 100%;
     }
 
     .cabecalho__menu{
@@ -267,7 +278,8 @@ section.portfolio{
         display: flex;
         align-items: center; /* Centraliza os links */
        gap: 13px;
-       width: auto;
+       width: 350px;
+       justify-content: space-between;
 
     }
 
@@ -308,8 +320,8 @@ section.portfolio{
     }
 
     .titulo{
-        width: 400px;
-        margin-left: 70px;
+        width: 350px;
+        margin-left: 20px;
     }
 }
 
