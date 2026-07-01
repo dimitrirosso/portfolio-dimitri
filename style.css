@@ -235,7 +235,8 @@ section.portfolio{
     background-image: url(./image/foto-meteora.png);
 }
 .portfolio-container .projeto3{
-    background-image: url(./image/dimi-flix.png);
+    background-image: url(./image/img-calc.png);
+    background-position: center;
 }
 .portfolio-container .projeto4{
     background-image: url(./image/alurabook.png);
@@ -252,21 +253,63 @@ section.portfolio{
     }
 
     .cabecalho{
-        padding: 10%;
+        width: 80%;
+        padding-top: 35px;
+        margin-right: 50px;
     }
 
+    .cabecalho__menu__links{
+        font-size: 22px;
+    }
 
     .cabecalho__menu{
         justify-content: center;
+        display: flex;
+        align-items: center; /* Centraliza os links */
+       gap: 13px;
+       width: auto;
+
     }
 
     .apresentacao__conteudo{
         width: auto;
     }
 
+    .rodape{
+        width: 100%;
+        text-align: center;
+    }
+
+    .rodape p{
+        margin-right: 30px;
+    }
+
     .foto{
         width: 60%;
         margin-top: 20%;
+        top: 60px;
+    }
+
+    .portfolio-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .interface{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+    .interface p{
+       width: 330px;
+    }
+
+    .titulo{
+        width: 400px;
+        margin-left: 70px;
     }
 }
 
