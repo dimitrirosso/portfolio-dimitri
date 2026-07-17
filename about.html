@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="molde-letra-d-10.png" type="image/x-icon">
     <title>Sobre mim</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -12,10 +13,28 @@
 <header class="cabecalho">
     <nav class="cabecalho__menu">
         <a class="cabecalho__menu__links" href="index.html">Inicio</a>
-        <a class="cabecalho__menu__links" href="about.html">Sobre mim</a>
+        <a class="cabecalho__menu__links" id="sobre" href="about.html">Sobre mim</a>
         <a class="cabecalho__menu__links" href="curriculo.html">Curriculo</a>
         <a class="cabecalho__menu__links" href="projetos.html">Projetos</a>
         </nav>
+
+         <div class="trilho" id="trilho">
+            <div class="indicador"></div>
+        </div>
+
+        <div class="menu-container">
+            <div class="menu-hamburguer-icon">
+                <button onclick="menuShow()"><img class="icon" src="menu_white_36dp.svg" alt=""></button>
+                <button onclick="menuShow()"><img class="vamos" src="cardapio-pequeno.png" alt=""></button>
+            </div>
+
+            <div class="mobile-menu">
+                    <a class="cabecalho__menu__links" href="index.html">Inicio</a>
+                    <a class="cabecalho__menu__links" href="about.html">Sobre mim</a>
+                    <a class="cabecalho__menu__links" href="curriculo.html">Curriculo</a>
+                    <a class="cabecalho__menu__links" href="projetos.html">Projetos</a>
+            </div>
+        </div>
 </header>
 
     <main class="apresentacao">
@@ -34,5 +53,8 @@
         <p>Feito por Dimitri Rosso.</p>
     </footer>
 
+
+
+    <script src="script.js"></script>
 </body> 
 </html>
