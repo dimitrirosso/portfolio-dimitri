@@ -7,16 +7,39 @@
     <link rel="shortcut icon" href="molde-letra-d-10.png" type="image/x-icon">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b27e652bdc.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="cabecalho">
+
         <nav class="cabecalho__menu">
-        <a class="cabecalho__menu__links" href="index.html">Inicio</a>
-        <a class="cabecalho__menu__links" href="about.html">Sobre mim</a>
-        <a class="cabecalho__menu__links" href="curriculo.html">Curriculo</a>
-        <a class="cabecalho__menu__links" href="projetos.html">Projetos</a>
+                <a class="cabecalho__menu__links" href="index.html">Inicio</a>
+                <a class="cabecalho__menu__links" href="about.html">Sobre mim</a>
+                <a class="cabecalho__menu__links" href="curriculo.html">Curriculo</a>
+                <a class="cabecalho__menu__links" href="projetos.html">Projetos</a>
+
+                
         </nav>
-    </header> 
+
+                <div class="trilho" id="trilho">
+                    <div class="indicador"></div>
+                </div>
+
+        <div class="menu-container">
+            <div class="menu-hamburguer-icon">
+                <button onclick="menuShow()"><img class="icon" src="menu_white_36dp.svg" alt=""></button>
+                <button onclick="menuShow()"><img class="vamos" src="cardapio-pequeno.png" alt=""></button>
+            </div>
+
+            <div class="mobile-menu">
+                    <a class="cabecalho__menu__links" href="index.html">Inicio</a>
+                    <a class="cabecalho__menu__links" href="about.html">Sobre mim</a>
+                    <a class="cabecalho__menu__links" href="curriculo.html">Curriculo</a>
+                    <a class="cabecalho__menu__links" href="projetos.html">Projetos</a>
+            </div>
+        </div>
+    </header>
+
         <main class="apresentacao">
 
     <section class="apresentacao__conteudo">
@@ -52,5 +75,7 @@
         <p>Feito por Dimitri Rosso.</p>
     </footer>
     
+
+    <script src="script.js"></script>
 </body>
 </html>
